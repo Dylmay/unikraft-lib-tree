@@ -1,0 +1,4 @@
+$(eval $(call addlib_s,libuktree,$(CONFIG_LIBUKTREE)))
+
+CINCLUDES-$(CONFIG_LIBUKTREE) += -I$(LIBUKTREE_BASE)/include
+CXXINCLUDES-$(CONFIG_LIBUKTREE) += -I$(LIBUKTREE_BASE)/include
